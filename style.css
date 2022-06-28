@@ -125,16 +125,6 @@ ul {
   color: azure !important;
 }
 
-.nav-link:hover::after {
-  content: "";
-  display: block;
-  border-bottom: 3px solid #111ad1;
-  width: 50%;
-  margin: auto;
-  padding-bottom: 5px;
-  margin-bottom: -8px;
-}
-
 /* jumbotron */
 .jumbotron-img {
   margin-top: -77px;
@@ -317,7 +307,6 @@ ul {
 .promosi-img {
   background-color: black;
   position: relative;
-  height: 5100px;
 }
 
 .img-gerak {
@@ -454,6 +443,13 @@ ul {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
 }
 
+.image-5-1 {
+  background-image: url(galleri/earth.jpg);
+  background-size: cover;
+  position: relative;
+  height: 400px;
+}
+
 .teleskop .teleskopp {
   background-image: url(galleri/red\ moon.jpg);
   background-size: cover;
@@ -518,5 +514,43 @@ ul {
 @media (max-width: 991px) {
   .h2-navbar {
     margin-left: 14px;
+  }
+}
+
+/* 576 768 992 1200 1400 */
+
+@media (max-width: 576px) {
+  .jumbotron-img {
+    margin-top: -77px;
+    background-image: url(galleri/earth.jpg);
+    background-size: cover;
+    height: 876px;
+    background-position-x: 50%;
+    position: relative;
+  }
+
+  .nav-link {
+    /* font-size: 13px; */
+    margin-right: 0;
+    color: black !important;
+  }
+
+  .promosi-img {
+    margin-top: -10px;
+  }
+
+  .solar-system .image-5 {
+    background-position-y: -223px;
+  }
+
+  .big-bang.row {
+    margin-top: 10px;
+  }
+  .img-gerak {
+    margin-top: 10px;
+  }
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
   }
 }
