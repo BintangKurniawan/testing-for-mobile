@@ -112,22 +112,15 @@ ul {
 }
 
 .h2-navbar {
-  color: azure !important;
   margin-left: 392px;
 }
 .nav-link {
   /* font-size: 13px; */
   margin-right: 23px;
-  color: azure !important;
-}
-
-.navbar-brand {
-  color: azure !important;
 }
 
 /* jumbotron */
 .jumbotron-img {
-  margin-top: -77px;
   background-image: url(galleri/earth.jpg);
   background-size: cover;
   height: 876px;
@@ -288,7 +281,7 @@ ul {
 }
 
 .judul-jumbotron-2 {
-  font-size: 50px;
+  font-size: 75px;
   letter-spacing: 10px;
   padding-top: 100px;
   text-transform: uppercase;
@@ -482,7 +475,7 @@ ul {
   background-size: cover;
   height: 400px;
   position: relative;
-  background-position-y: -350px;
+  background-position-y: -435px;
 }
 
 .radio-sinyal {
@@ -511,7 +504,11 @@ ul {
   height: 400px;
 }
 
-@media (max-width: 991px) {
+.mrg-top {
+  margin-top: 10px;
+}
+
+@media (max-width: 992px) {
   .h2-navbar {
     margin-left: 14px;
   }
@@ -521,18 +518,11 @@ ul {
 
 @media (max-width: 576px) {
   .jumbotron-img {
-    margin-top: -77px;
     background-image: url(galleri/earth.jpg);
     background-size: cover;
     height: 876px;
     background-position-x: 50%;
     position: relative;
-  }
-
-  .nav-link {
-    /* font-size: 13px; */
-    margin-right: 0;
-    color: black !important;
   }
 
   .promosi-img {
@@ -552,5 +542,99 @@ ul {
   .footer-col {
     width: 50%;
     margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .jumbotron-img {
+    background-position-x: 50%;
+  }
+
+  .solar-system .image-5 {
+    background-position-y: -110px;
+  }
+
+  .radio-sinyal {
+    background-position-x: 50%;
+  }
+
+  .t-cntr {
+    text-align: center !important;
+  }
+
+  .big-bang.row {
+    margin-top: 10px;
+  }
+  .mrg-top {
+    margin-top: 10px;
+  }
+
+  .teleskop .solarr {
+    height: 400px;
+  }
+
+  .teleskop .teleskopp {
+    height: 450px;
+  }
+}
+
+@media (max-width: 992px) {
+  .jumbotron-img {
+    background-position-x: 50%;
+  }
+
+  .radio-sinyal {
+    background-position-x: 50%;
+  }
+
+  p.vid-p,
+  p.ukr-p {
+    font-size: 15px;
+  }
+
+  .solar-system .image-5 {
+    background-position-y: 90%;
+  }
+
+  .ukr-h1 {
+    font-size: 30px;
+  }
+  .big-bang.row {
+    margin-top: 10px;
+  }
+  .mrg-top {
+    margin-top: 10px;
+  }
+  .ukr-asw.row {
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 992px) {
+  .jumbotron-img {
+    margin-top: -77px;
+  }
+
+  .nav-link,
+  .navbar-brand,
+  .h2-navbar {
+    /* font-size: 13px; */
+    color: azure !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .solar-system .image-5 {
+    background-position-y: 90%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .ukr-asw.row {
+    margin-top: 10px;
+  }
+
+  .big-bang.row {
+    margin-top: 20px;
   }
 }
