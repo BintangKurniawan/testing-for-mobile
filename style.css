@@ -512,6 +512,10 @@ ul {
   .h2-navbar {
     margin-left: 14px;
   }
+  
+  .image-5-1 {
+   background-position-x: 50%;
+  }
 }
 
 /* 576 768 992 1200 1400 */
