@@ -524,6 +524,10 @@ ul {
     background-position-x: 50%;
     position: relative;
   }
+  
+  .judul-jumbotron-2 {
+    font-size: 50px;
+  }
 
   .promosi-img {
     margin-top: -10px;
